@@ -1,3 +1,4 @@
 from django.contrib import admin
-
-# Register your models here.
+#Lo que aparecerá en el admin
+from .models import Job
+admin.site.register(Job)
